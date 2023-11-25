@@ -18,9 +18,14 @@
 
  {% for u in users %}
 
-  {{ u }}
+  {{ u.id }}
 
-{% endfor %} 
+  {{ u.name }}
+
+  {{ u.created_at }}
+
+
+  {% endfor %} 
 
 
     </div>
